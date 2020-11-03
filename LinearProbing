@@ -57,8 +57,8 @@ public class LinearProbing {
         int hashingIndx = val % arr.length; // Creating hashing index
 
         /** By the formula :- arr[(hashingIndx + i) % arr.length], we can return back to first index of the array and start checking the
-         *  empty index from there. If the given initiate hashing index is greater than or equal to 1 then the loop will run in circular way
-         *  from given initiate hashing index to it's previous index; else if it is 0 (first index) it will normally run from first to last index;
+         *  empty index from there. If the given initial hashing index is greater than or equal to 1 then the loop will run in circular way
+         *  from given initial hashing index to it's previous index; else if it is 0 (first index) it will normally run from first to last index;
          *  which means the loop will usually traverse till array length-1 in both cases and the formula will also work in both cases */
 
         /** Here we are using the 'i' variable to get the next empty index from the current hashing index by loop */
