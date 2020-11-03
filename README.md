@@ -27,4 +27,4 @@ Does it really make sense ? Then some researchers came up with a some technique 
 
 But, I just mentioned only three of those that are common, but there may be a lot of those . 
 
-I have also provide documentation comment in my own words for explaining the concept
+I have also provided documentation comment in my own words for explaining the concept
