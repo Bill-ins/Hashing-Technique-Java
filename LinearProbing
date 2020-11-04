@@ -87,7 +87,8 @@ public class LinearProbing {
 
         /** Here we are also checking (arr[(hashingIndx + i) % arr.length] != 0) because if our value is not available in
          * that group or cluster which is the next indices of the hashing index then it is not in that list, i.e; if somehow
-         * we found an empty index while searching to the group of next indices of hashing index then that item is not found */
+         * we found an empty index while searching to the group of next indices of hashing index then that item is not found
+         * and we immediately terminate our loop */
 
         while(i < arr.length && (arr[(hashingIndx + i) % arr.length] != 0)) {
 
