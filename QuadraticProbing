@@ -5,7 +5,7 @@ public class QuadraticProbing {
     /** Quadratic probing is almost similar to the linear probing . But referring to name it will traverse through the next
      * indices of the given hashing index in a quadratic way, which means we were using 'i' for checking the next empty
      * index of the current hashing index by incrementing the 'i' by 1 in linear probing, in here we are going to increment
-     * the 'i' in quadratic manner which is i*i. */
+     * the 'i' in quadratic manner which is i*i or i's square. */
 
     Scanner sc = new Scanner(System.in);
     int arr[];
